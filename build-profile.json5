@@ -1,33 +1,21 @@
 {
-  "app": {
-    "signingConfigs": [],
-    "products": [
-      {
-        "name": "default",
-        "signingConfig": "default",
-        "compatibleSdkVersion": "5.0.0(12)",
-        "runtimeOS": "HarmonyOS",
-        "targetSdkVersion": ""
-      }
-    ],
-    "buildModeSet": [
-      {
-        "name": "debug"
-      },
-      {
-        "name": "release"
-      }
-    ]
+  app: {
+    bundleName: 'com.example.todolist',
+    vendor: 'example',
+    version: {
+      code: 1,
+      name: '1.0.0'
+    }
   },
-  "modules": [
+  modules: [
     {
-      "name": "entry",
-      "srcPath": "./entry",
-      "targets": [
+      name: 'entry',
+      srcPath: './entry',
+      targets: [
         {
-          "name": "default",
-          "applyToProducts": [
-            "default"
+          name: 'default',
+          applyToProducts: [
+            'default'
           ]
         }
       ]

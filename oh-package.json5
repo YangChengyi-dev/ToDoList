@@ -1,11 +1,12 @@
 {
-  "modelVersion": "5.0.0",
-  "license": "ISC",
-  "devDependencies": {
-  },
-  "name": "agentsarkts",
-  "description": "example description",
-  "repository": {},
-  "version": "1.0.0",
-  "dependencies": {}
+  license: '',
+  devDependencies: {},
+  author: '',
+  name: 'todolist',
+  description: '待办列表应用',
+  main: '',
+  version: '1.0.0',
+  dependencies: {},
+  modelVersion: '5.0.4'
+  // 添加此行
 }

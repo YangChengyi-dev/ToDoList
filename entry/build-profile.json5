@@ -1,11 +1,15 @@
 {
-  "apiType": 'stageMode',
-  "buildOption": {
+  apiType: 'stageMode',
+  buildOption: {
+    arkOptions: {
+      // 可在此添加ArkTS编译器选项
+    }
   },
-  "targets": [
+  target: [
     {
-      "name": "default",
-      "runtimeOS": "HarmonyOS"
+      name: 'default',
+      runtimeOS: 'HarmonyOS',
+      config: {}
     }
   ]
 }
