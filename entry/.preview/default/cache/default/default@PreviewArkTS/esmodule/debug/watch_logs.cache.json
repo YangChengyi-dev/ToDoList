@@ -1,0 +1,1 @@
+[{"time":"2025-04-11T20:34:13.523Z","category":"etsTransform","level":"warn","msg":"\u001b[33mArkTS:WARN File: D:/coedlabs/ToDoList/entry/src/main/ets/pages/ToDoListPage.ets:43:9\n Property 'content' is private and can not be initialized through the component constructor.","type":"plugin_log","fileId":"D:/coedlabs/ToDoList/entry/src/main/ets/pages/ToDoListPage.ets"}]
