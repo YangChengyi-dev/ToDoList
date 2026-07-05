@@ -1,0 +1,37 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [],
+    "NATIVE_COMPILER": "Default"
+  },
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": true,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "TASK_TIME": {},
+    "APIS": [
+      "getHvigorConfig",
+      "getRootNodeDescriptor",
+      "getChildNode",
+      "getNodeByName",
+      "getAllNodes",
+      "getRootNode",
+      "getNodeName",
+      "getStartParams",
+      "buildFinished"
+    ],
+    "CONFIG_PROPERTIES": {},
+    "BUILD_ID": "202607051847355520",
+    "ERROR_MESSAGE": [
+      {
+        "CODE": "00303038",
+        "MESSAGE": "%s",
+        "SOLUTIONS": [
+          "Please check the following fields. \r\n {\n  instancePath: 'app',\n  keyword: 'enum',\n  params: {\n    allowedValues: [\n      'signingConfigs',\n      'products',\n      'buildModeSet',\n      'multiProjects',\n      'capabilities'\n    ]\n  },\n  message: 'must be equal to one of the allowed values',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'propertyNames',\n  params: { propertyName: 'bundleName' },\n  message: 'property name must be valid',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'enum',\n  params: {\n    allowedValues: [\n      'signingConfigs',\n      'products',\n      'buildModeSet',\n      'multiProjects',\n      'capabilities'\n    ]\n  },\n  message: 'must be equal to one of the allowed values',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'propertyNames',\n  params: { propertyName: 'vendor' },\n  message: 'property name must be valid',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'enum',\n  params: {\n    allowedValues: [\n      'signingConfigs',\n      'products',\n      'buildModeSet',\n      'multiProjects',\n      'capabilities'\n    ]\n  },\n  message: 'must be equal to one of the allowed values',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'propertyNames',\n  params: { propertyName: 'version' },\n  message: 'property name must be valid',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n"
+        ],
+        "TIMESTAMP": "1783248458568"
+      }
+    ],
+    "TOTAL_TIME": 3026662600
+  }
+}
