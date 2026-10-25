@@ -1,0 +1,9 @@
+{
+  "app": {
+    "bundleName": "com.example.todolist",
+    "vendor": "example",
+    "versionCode": 1,
+    "versionName": "1.0.0",
+    "compatibleSdkVersion": "9"
+  }
+}
