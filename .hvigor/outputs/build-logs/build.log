@@ -300,3 +300,1980 @@ Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profi
 [2026-07-05T18:47:38.616] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-07-05T18:47:38.617] [DEBUG] debug-file - worker[0] exits with exit code 0.
 [2026-07-05T18:47:38.618] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-10-25T14:15:14.352] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-10-25T14:15:14.441] [DEBUG] debug-file - env: daemon=true
+[2026-10-25T14:15:14.354] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2026-10-25T14:15:15.224] [DEBUG] debug-file - hvigor java daemon: Starting java daemon. jvmXmxValue=512m, jarPath=D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\lib\hvigor-java-daemon.jar
+[2026-10-25T14:15:15.224] [DEBUG] debug-file - hvigor java daemon: Read cache file, 
+    port=45050, pid=9972, sessionId exists=true
+[2026-10-25T14:15:15.252] [DEBUG] debug-file - hvigor java daemon: tryConnect failed, Error: connect ECONNREFUSED 127.0.0.1:45050, will start new daemon
+[2026-10-25T14:15:15.265] [DEBUG] debug-file - java daemon started at port 45050 pid 5388
+[2026-10-25T14:15:15.297] [DEBUG] debug-file - session manager: set active socket. socketId=RaX8qzLIKaZAKOHUAAAB
+[2026-10-25T14:15:16.015] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:15:16.021] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-10-25T14:15:16.022] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-10-25T14:15:16.023] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-10-25T14:15:16.024] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-10-25T14:15:16.026] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-10-25T14:15:16.032] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-10-25T14:15:16.033] [DEBUG] debug-file - Since current hvigor version 6.24.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-10-25T14:15:16.036] [DEBUG] debug-file - Cache service initialization finished in 4 ms 
+[2026-10-25T14:15:16.038] [DEBUG] debug-file - hvigorfile, resolving D:\coedlabs\ToDoList\hvigorfile.ts
+[2026-10-25T14:15:19.014] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-10-25T14:15:19.015] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-10-25T14:15:19.015] [DEBUG] debug-file - Starting plugin build process
+[2026-10-25T14:15:19.015] [DEBUG] debug-file - App plugin prepare start...
+[2026-10-25T14:15:19.015] [DEBUG] debug-file - App plugin prepare end...
+[2026-10-25T14:15:19.015] [DEBUG] debug-file - App plugin creating...
+[2026-10-25T14:15:19.164] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-10-25T14:15:19.169] [ERROR] debug-file - [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'required',
+  params: { missingProperty: 'compatibleSdkVersion' },
+  message: "must have required property 'compatibleSdkVersion'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-10-25T14:15:19.169] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'required',
+  params: { missingProperty: 'compatibleSdkVersion' },
+  message: "must have required property 'compatibleSdkVersion'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:15:19.169] [ERROR] debug-file - AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'required',
+  params: { missingProperty: 'compatibleSdkVersion' },
+  message: "must have required property 'compatibleSdkVersion'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:15:19.176] [ERROR] debug-file - BUILD FAILED in 3 s 150 ms 
+[2026-10-25T14:15:19.189] [DEBUG] debug-file - Cleanup worker 0.
+[2026-10-25T14:15:19.189] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-10-25T14:15:19.189] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-10-25T14:15:19.189] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-10-25T14:15:19.189] [DEBUG] debug-file - Cleanup worker 1.
+[2026-10-25T14:15:19.189] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-10-25T14:15:19.189] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-10-25T14:15:19.189] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-10-25T14:15:19.195] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:15:19.195] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:15:19.201] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-10-25T14:15:19.202] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-10-25T14:15:19.203] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-10-25T14:15:19.204] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:15:19.205] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:15:37.053] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-10-25T14:15:37.100] [DEBUG] debug-file - env: daemon=true
+[2026-10-25T14:15:37.055] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2026-10-25T14:15:37.599] [DEBUG] debug-file - session manager: set active socket. socketId=7eQwGg6FdDn8zrgYAAAD
+[2026-10-25T14:15:37.606] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:15:37.612] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-10-25T14:15:37.616] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-10-25T14:15:37.617] [DEBUG] debug-file - Since current hvigor version 6.24.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-10-25T14:15:37.621] [DEBUG] debug-file - Cache service initialization finished in 4 ms 
+[2026-10-25T14:15:37.622] [DEBUG] debug-file - hvigorfile, resolving D:\coedlabs\ToDoList\hvigorfile.ts
+[2026-10-25T14:15:37.634] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-10-25T14:15:37.634] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-10-25T14:15:37.635] [DEBUG] debug-file - Starting plugin build process
+[2026-10-25T14:15:37.635] [DEBUG] debug-file - App plugin prepare start...
+[2026-10-25T14:15:37.635] [DEBUG] debug-file - App plugin prepare end...
+[2026-10-25T14:15:37.635] [DEBUG] debug-file - App plugin creating...
+[2026-10-25T14:15:37.641] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-10-25T14:15:37.642] [ERROR] debug-file - [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app.signingConfigs[0]',
+  keyword: 'required',
+  params: { missingProperty: 'material' },
+  message: "must have required property 'material'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.signingConfigs[0].type',
+  keyword: 'enum',
+  params: { allowedValues: [ 'HarmonyOS', 'OpenHarmony' ] },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:6:22'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'required',
+  params: { missingProperty: 'compatibleSdkVersion' },
+  message: "must have required property 'compatibleSdkVersion'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:10:8'
+} 
+
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-10-25T14:15:37.642] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app.signingConfigs[0]',
+  keyword: 'required',
+  params: { missingProperty: 'material' },
+  message: "must have required property 'material'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.signingConfigs[0].type',
+  keyword: 'enum',
+  params: { allowedValues: [ 'HarmonyOS', 'OpenHarmony' ] },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:6:22'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'required',
+  params: { missingProperty: 'compatibleSdkVersion' },
+  message: "must have required property 'compatibleSdkVersion'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:10:8'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:15:37.643] [ERROR] debug-file - AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app.signingConfigs[0]',
+  keyword: 'required',
+  params: { missingProperty: 'material' },
+  message: "must have required property 'material'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.signingConfigs[0].type',
+  keyword: 'enum',
+  params: { allowedValues: [ 'HarmonyOS', 'OpenHarmony' ] },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:6:22'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'required',
+  params: { missingProperty: 'compatibleSdkVersion' },
+  message: "must have required property 'compatibleSdkVersion'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:10:8'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:15:37.650] [ERROR] debug-file - BUILD FAILED in 37 ms 
+[2026-10-25T14:15:37.665] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-10-25T14:15:37.666] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-10-25T14:15:37.673] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:15:37.673] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:15:37.673] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:15:37.674] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:16:02.965] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-10-25T14:16:03.008] [DEBUG] debug-file - env: daemon=true
+[2026-10-25T14:16:02.966] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2026-10-25T14:16:03.467] [DEBUG] debug-file - session manager: set active socket. socketId=DygT1t5UipRVZuNUAAAF
+[2026-10-25T14:16:03.472] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:16:03.476] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-10-25T14:16:03.479] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-10-25T14:16:03.479] [DEBUG] debug-file - Since current hvigor version 6.24.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-10-25T14:16:03.480] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-10-25T14:16:03.481] [DEBUG] debug-file - hvigorfile, resolving D:\coedlabs\ToDoList\hvigorfile.ts
+[2026-10-25T14:16:03.485] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-10-25T14:16:03.485] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-10-25T14:16:03.485] [DEBUG] debug-file - Starting plugin build process
+[2026-10-25T14:16:03.485] [DEBUG] debug-file - App plugin prepare start...
+[2026-10-25T14:16:03.485] [DEBUG] debug-file - App plugin prepare end...
+[2026-10-25T14:16:03.485] [DEBUG] debug-file - App plugin creating...
+[2026-10-25T14:16:03.489] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-10-25T14:16:03.490] [ERROR] debug-file - [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-10-25T14:16:03.490] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:16:03.491] [ERROR] debug-file - AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:16:03.496] [ERROR] debug-file - BUILD FAILED in 21 ms 
+[2026-10-25T14:16:03.507] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-10-25T14:16:03.507] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-10-25T14:16:03.512] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:16:03.513] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:16:03.513] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:16:03.513] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:17:03.650] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-10-25T14:17:03.695] [DEBUG] debug-file - env: daemon=true
+[2026-10-25T14:17:03.651] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2026-10-25T14:17:04.229] [DEBUG] debug-file - session manager: set active socket. socketId=rnZXkhpL2Y2g0KpXAAAH
+[2026-10-25T14:17:04.244] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:17:04.259] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-10-25T14:17:04.271] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-10-25T14:17:04.273] [DEBUG] debug-file - Since current hvigor version 6.24.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-10-25T14:17:04.279] [DEBUG] debug-file - Cache service initialization finished in 7 ms 
+[2026-10-25T14:17:04.282] [DEBUG] debug-file - hvigorfile, resolving D:\coedlabs\ToDoList\hvigorfile.ts
+[2026-10-25T14:17:04.293] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-10-25T14:17:04.293] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-10-25T14:17:04.294] [DEBUG] debug-file - Starting plugin build process
+[2026-10-25T14:17:04.296] [DEBUG] debug-file - App plugin prepare start...
+[2026-10-25T14:17:04.296] [DEBUG] debug-file - App plugin prepare end...
+[2026-10-25T14:17:04.296] [DEBUG] debug-file - App plugin creating...
+[2026-10-25T14:17:04.307] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-10-25T14:17:04.312] [ERROR] debug-file - [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-10-25T14:17:04.312] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:17:04.312] [ERROR] debug-file - AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'bundleName' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'vendor' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'signingConfigs',
+      'products',
+      'buildModeSet',
+      'multiProjects',
+      'capabilities'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+{
+  instancePath: 'app',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:17:04.323] [ERROR] debug-file - BUILD FAILED in 62 ms 
+[2026-10-25T14:17:04.346] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-10-25T14:17:04.348] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-10-25T14:17:04.364] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:17:04.365] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:17:04.359] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:17:04.359] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:17:52.760] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-10-25T14:17:52.812] [DEBUG] debug-file - env: daemon=true
+[2026-10-25T14:17:52.762] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2026-10-25T14:17:53.419] [DEBUG] debug-file - session manager: set active socket. socketId=7cwHB6AKmO5b8R_wAAAJ
+[2026-10-25T14:17:53.440] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:17:53.454] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-10-25T14:17:53.463] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-10-25T14:17:53.465] [DEBUG] debug-file - Since current hvigor version 6.24.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-10-25T14:17:53.471] [DEBUG] debug-file - Cache service initialization finished in 8 ms 
+[2026-10-25T14:17:53.473] [DEBUG] debug-file - hvigorfile, resolving D:\coedlabs\ToDoList\hvigorfile.ts
+[2026-10-25T14:17:53.482] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-10-25T14:17:53.482] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-10-25T14:17:53.484] [DEBUG] debug-file - Starting plugin build process
+[2026-10-25T14:17:53.484] [DEBUG] debug-file - App plugin prepare start...
+[2026-10-25T14:17:53.484] [DEBUG] debug-file - App plugin prepare end...
+[2026-10-25T14:17:53.484] [DEBUG] debug-file - App plugin creating...
+[2026-10-25T14:17:53.495] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-10-25T14:17:53.500] [ERROR] debug-file - [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app.products[0]',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'name',
+      'signingConfig',
+      'bundleName',
+      'buildOption',
+      'runtimeOS',
+      'compileSdkVersion',
+      'compatibleSdkVersion',
+      'compatibleSdkVersionStage',
+      'targetSdkVersion',
+      'bundleType',
+      'label',
+      'icon',
+      'versionCode',
+      'versionName',
+      'buildVersion',
+      'resource',
+      'output',
+      'vendor'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'required',
+  params: { missingProperty: 'arkTSVersion' },
+  message: "must have required property 'arkTSVersion'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'name',
+      'signingConfig',
+      'bundleName',
+      'buildOption',
+      'runtimeOS',
+      'compileSdkVersion',
+      'compatibleSdkVersion',
+      'compatibleSdkVersionStage',
+      'targetSdkVersion',
+      'bundleType',
+      'label',
+      'icon',
+      'versionCode',
+      'versionName',
+      'buildVersion',
+      'resource',
+      'output',
+      'arkTSVersion',
+      'vendor'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'oneOf',
+  params: { passingSchemas: null },
+  message: 'must match exactly one schema in oneOf',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-10-25T14:17:53.501] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app.products[0]',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'name',
+      'signingConfig',
+      'bundleName',
+      'buildOption',
+      'runtimeOS',
+      'compileSdkVersion',
+      'compatibleSdkVersion',
+      'compatibleSdkVersionStage',
+      'targetSdkVersion',
+      'bundleType',
+      'label',
+      'icon',
+      'versionCode',
+      'versionName',
+      'buildVersion',
+      'resource',
+      'output',
+      'vendor'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'required',
+  params: { missingProperty: 'arkTSVersion' },
+  message: "must have required property 'arkTSVersion'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'name',
+      'signingConfig',
+      'bundleName',
+      'buildOption',
+      'runtimeOS',
+      'compileSdkVersion',
+      'compatibleSdkVersion',
+      'compatibleSdkVersionStage',
+      'targetSdkVersion',
+      'bundleType',
+      'label',
+      'icon',
+      'versionCode',
+      'versionName',
+      'buildVersion',
+      'resource',
+      'output',
+      'arkTSVersion',
+      'vendor'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'oneOf',
+  params: { passingSchemas: null },
+  message: 'must match exactly one schema in oneOf',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:17:53.501] [ERROR] debug-file - AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: D:\coedlabs\ToDoList\build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app.products[0]',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'name',
+      'signingConfig',
+      'bundleName',
+      'buildOption',
+      'runtimeOS',
+      'compileSdkVersion',
+      'compatibleSdkVersion',
+      'compatibleSdkVersionStage',
+      'targetSdkVersion',
+      'bundleType',
+      'label',
+      'icon',
+      'versionCode',
+      'versionName',
+      'buildVersion',
+      'resource',
+      'output',
+      'vendor'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'required',
+  params: { missingProperty: 'arkTSVersion' },
+  message: "must have required property 'arkTSVersion'",
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'enum',
+  params: {
+    allowedValues: [
+      'name',
+      'signingConfig',
+      'bundleName',
+      'buildOption',
+      'runtimeOS',
+      'compileSdkVersion',
+      'compatibleSdkVersion',
+      'compatibleSdkVersionStage',
+      'targetSdkVersion',
+      'bundleType',
+      'label',
+      'icon',
+      'versionCode',
+      'versionName',
+      'buildVersion',
+      'resource',
+      'output',
+      'arkTSVersion',
+      'vendor'
+    ]
+  },
+  message: 'must be equal to one of the allowed values',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'propertyNames',
+  params: { propertyName: 'version' },
+  message: 'property name must be valid',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'oneOf',
+  params: { passingSchemas: null },
+  message: 'must match exactly one schema in oneOf',
+  location: 'D:/coedlabs/ToDoList/build-profile.json5:4:8'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:8293)
+    at ValidateUtil.submitSchemaCheckWork (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:7129)
+    at ProjectModelImpl.projectBuildProfileCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:9382)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2677)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+[2026-10-25T14:17:53.514] [ERROR] debug-file - BUILD FAILED in 59 ms 
+[2026-10-25T14:17:53.547] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-10-25T14:17:53.549] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-10-25T14:17:53.565] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:17:53.567] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:17:53.561] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:17:53.562] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:18:58.039] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-10-25T14:18:58.086] [DEBUG] debug-file - env: daemon=true
+[2026-10-25T14:18:58.041] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2026-10-25T14:18:58.676] [DEBUG] debug-file - session manager: set active socket. socketId=ECfSN33V1eTWxlo8AAAL
+[2026-10-25T14:18:58.694] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:18:58.708] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-10-25T14:18:58.716] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-10-25T14:18:58.717] [DEBUG] debug-file - Since current hvigor version 6.24.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-10-25T14:18:58.721] [DEBUG] debug-file - Cache service initialization finished in 6 ms 
+[2026-10-25T14:18:58.724] [DEBUG] debug-file - hvigorfile, resolving D:\coedlabs\ToDoList\hvigorfile.ts
+[2026-10-25T14:18:58.732] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-10-25T14:18:58.732] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-10-25T14:18:58.733] [DEBUG] debug-file - Starting plugin build process
+[2026-10-25T14:18:58.733] [DEBUG] debug-file - App plugin prepare start...
+[2026-10-25T14:18:58.733] [DEBUG] debug-file - App plugin prepare end...
+[2026-10-25T14:18:58.733] [DEBUG] debug-file - App plugin creating...
+[2026-10-25T14:18:58.757] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-10-25T14:18:58.759] [ERROR] debug-file - [31m00303027 Configuration Error
+Error Message: The modelVersion in hvigor-config.json5 is 5.0.0, and the modelVersion in oh-package.json5 is 5.0.4, at file: D:\coedlabs\ToDoList\oh-package.json5
+
+* Try the following:
+  > They need to be consistent. Go to Tools > Migrate Assistant use the migration tool to update the project structure and configuration with Deveco Studio, or refer to the guide to manually update the project structure and configuration. Verify that the value of modelVersion in the hvigor-config.json5 file is the same as that in the oh-package.json5 file.
+  > More info: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-set-options#section1646051642919、https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-oh-package-json5
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-10-25T14:18:58.760] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303027 Configuration Error
+Error Message: The modelVersion in hvigor-config.json5 is 5.0.0, and the modelVersion in oh-package.json5 is 5.0.4, at file: D:\coedlabs\ToDoList\oh-package.json5
+
+* Try the following:
+  > They need to be consistent. Go to Tools > Migrate Assistant use the migration tool to update the project structure and configuration with Deveco Studio, or refer to the guide to manually update the project structure and configuration. Verify that the value of modelVersion in the hvigor-config.json5 file is the same as that in the oh-package.json5 file.
+  > More info: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-set-options#section1646051642919、https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-oh-package-json5
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.modelVersionCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:3797)
+    at ProjectModelImpl.projectStatusCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:6062)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2893)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+    at PluginFactory.getAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:481)
+[2026-10-25T14:18:58.760] [ERROR] debug-file - AdaptorError: [31m00303027 Configuration Error
+Error Message: The modelVersion in hvigor-config.json5 is 5.0.0, and the modelVersion in oh-package.json5 is 5.0.4, at file: D:\coedlabs\ToDoList\oh-package.json5
+
+* Try the following:
+  > They need to be consistent. Go to Tools > Migrate Assistant use the migration tool to update the project structure and configuration with Deveco Studio, or refer to the guide to manually update the project structure and configuration. Verify that the value of modelVersion in the hvigor-config.json5 file is the same as that in the oh-package.json5 file.
+  > More info: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-set-options#section1646051642919、https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-oh-package-json5
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at ValidateUtil.modelVersionCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\validate\validate-util.js:1:3797)
+    at ProjectModelImpl.projectStatusCheck (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:6062)
+    at new CoreProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\core-project-model-impl.js:1:2893)
+    at new ProjectModelImpl (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\model\project\project-model-impl.js:1:596)
+    at new AppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:1610)
+    at AppPluginBuilder.build (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js:1:756)
+    at PluginFactory.getAppPlugin (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:481)
+[2026-10-25T14:18:58.769] [ERROR] debug-file - BUILD FAILED in 61 ms 
+[2026-10-25T14:18:58.792] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-10-25T14:18:58.793] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-10-25T14:18:58.809] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:18:58.810] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:18:58.808] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:18:58.810] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:19:10.869] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-10-25T14:19:10.910] [DEBUG] debug-file - env: daemon=true
+[2026-10-25T14:19:10.871] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2026-10-25T14:19:11.368] [DEBUG] debug-file - session manager: set active socket. socketId=lVFMMrWrGayjtOS_AAAN
+[2026-10-25T14:19:11.373] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:19:11.376] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-10-25T14:19:11.379] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-10-25T14:19:11.379] [DEBUG] debug-file - Since current hvigor version 6.24.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-10-25T14:19:11.380] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-10-25T14:19:11.382] [DEBUG] debug-file - hvigorfile, resolving D:\coedlabs\ToDoList\hvigorfile.ts
+[2026-10-25T14:19:11.385] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-10-25T14:19:11.385] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-10-25T14:19:11.386] [DEBUG] debug-file - Starting plugin build process
+[2026-10-25T14:19:11.386] [DEBUG] debug-file - App plugin prepare start...
+[2026-10-25T14:19:11.386] [DEBUG] debug-file - App plugin prepare end...
+[2026-10-25T14:19:11.386] [DEBUG] debug-file - App plugin creating...
+[2026-10-25T14:19:11.393] [DEBUG] debug-file - App plugin register hook start...
+[2026-10-25T14:19:11.394] [DEBUG] debug-file - App plugin register hook end...
+[2026-10-25T14:19:11.394] [DEBUG] debug-file - Plugin build process completed
+[2026-10-25T14:19:11.394] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-10-25T14:19:11.394] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-10-25T14:19:11.395] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-10-25T14:19:11.395] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-10-25T14:19:11.399] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-10-25T14:19:11.400] [ERROR] debug-file - [31m00303208 Configuration Error
+Error Message: Unable to find 'sdk.dir' in 'local.properties' or 'OHOS_BASE_SDK_HOME' in the system environment path. Check at file: D:\coedlabs\ToDoList\local.properties 
+
+* Try the following:
+  > Add 'OHOS_BASE_SDK_HOME' to the system environment path. 
+  > Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-10-25T14:19:11.400] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303208 Configuration Error
+Error Message: Unable to find 'sdk.dir' in 'local.properties' or 'OHOS_BASE_SDK_HOME' in the system environment path. Check at file: D:\coedlabs\ToDoList\local.properties 
+
+* Try the following:
+  > Add 'OHOS_BASE_SDK_HOME' to the system environment path. 
+  > Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again.
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at Property.validatePath (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2109)
+    at Property.getSdkDir (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:1195)
+    at SdkLoader.getSdkInfo (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-loader.js:1:654)
+    at new ProjectTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\service\project-task-service.js:1:2057)
+    at AppPlugin.initTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:715)
+    at ProjectImpl.<anonymous> (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:2286)
+    at ProjectImpl.executeAfterBindSystemPluginsHook (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hvigor-node-impl\default-node-impl.js:1:5577)
+    at evaluateNodeVigorFile (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:9617)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-10-25T14:19:11.400] [ERROR] debug-file - AdaptorError: [31m00303208 Configuration Error
+Error Message: Unable to find 'sdk.dir' in 'local.properties' or 'OHOS_BASE_SDK_HOME' in the system environment path. Check at file: D:\coedlabs\ToDoList\local.properties 
+
+* Try the following:
+  > Add 'OHOS_BASE_SDK_HOME' to the system environment path. 
+  > Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again.
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at Property.validatePath (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2109)
+    at Property.getSdkDir (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:1195)
+    at SdkLoader.getSdkInfo (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-loader.js:1:654)
+    at new ProjectTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\service\project-task-service.js:1:2057)
+    at AppPlugin.initTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:715)
+    at ProjectImpl.<anonymous> (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:2286)
+    at ProjectImpl.executeAfterBindSystemPluginsHook (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hvigor-node-impl\default-node-impl.js:1:5577)
+    at evaluateNodeVigorFile (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:9617)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-10-25T14:19:11.406] [ERROR] debug-file - BUILD FAILED in 30 ms 
+[2026-10-25T14:19:11.416] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-10-25T14:19:11.417] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-10-25T14:19:11.423] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:19:11.423] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:19:11.422] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:19:11.422] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:24:29.636] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-10-25T14:24:29.673] [DEBUG] debug-file - env: daemon=true
+[2026-10-25T14:24:29.637] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2026-10-25T14:24:30.107] [DEBUG] debug-file - session manager: set active socket. socketId=cnC2lDXFxl6B7rzDAAAP
+[2026-10-25T14:24:30.114] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:24:30.117] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-10-25T14:24:30.119] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-10-25T14:24:30.120] [DEBUG] debug-file - Since current hvigor version 6.24.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-10-25T14:24:30.121] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-10-25T14:24:30.121] [DEBUG] debug-file - hvigorfile, resolving D:\coedlabs\ToDoList\hvigorfile.ts
+[2026-10-25T14:24:30.127] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-10-25T14:24:30.127] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-10-25T14:24:30.128] [DEBUG] debug-file - Starting plugin build process
+[2026-10-25T14:24:30.128] [DEBUG] debug-file - App plugin prepare start...
+[2026-10-25T14:24:30.128] [DEBUG] debug-file - App plugin prepare end...
+[2026-10-25T14:24:30.128] [DEBUG] debug-file - App plugin creating...
+[2026-10-25T14:24:30.132] [DEBUG] debug-file - App plugin register hook start...
+[2026-10-25T14:24:30.132] [DEBUG] debug-file - App plugin register hook end...
+[2026-10-25T14:24:30.132] [DEBUG] debug-file - Plugin build process completed
+[2026-10-25T14:24:30.133] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-10-25T14:24:30.133] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-10-25T14:24:30.133] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-10-25T14:24:30.133] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-10-25T14:24:30.136] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-10-25T14:24:30.137] [ERROR] debug-file - [31m00303208 Configuration Error
+Error Message: Unable to find 'sdk.dir' in 'local.properties' or 'OHOS_BASE_SDK_HOME' in the system environment path. Check at file: D:\coedlabs\ToDoList\local.properties 
+
+* Try the following:
+  > Add 'OHOS_BASE_SDK_HOME' to the system environment path. 
+  > Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-10-25T14:24:30.137] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303208 Configuration Error
+Error Message: Unable to find 'sdk.dir' in 'local.properties' or 'OHOS_BASE_SDK_HOME' in the system environment path. Check at file: D:\coedlabs\ToDoList\local.properties 
+
+* Try the following:
+  > Add 'OHOS_BASE_SDK_HOME' to the system environment path. 
+  > Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again.
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at Property.validatePath (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2109)
+    at Property.getSdkDir (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:1195)
+    at SdkLoader.getSdkInfo (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-loader.js:1:654)
+    at new ProjectTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\service\project-task-service.js:1:2057)
+    at AppPlugin.initTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:715)
+    at ProjectImpl.<anonymous> (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:2286)
+    at ProjectImpl.executeAfterBindSystemPluginsHook (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hvigor-node-impl\default-node-impl.js:1:5577)
+    at evaluateNodeVigorFile (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:9617)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-10-25T14:24:30.137] [ERROR] debug-file - AdaptorError: [31m00303208 Configuration Error
+Error Message: Unable to find 'sdk.dir' in 'local.properties' or 'OHOS_BASE_SDK_HOME' in the system environment path. Check at file: D:\coedlabs\ToDoList\local.properties 
+
+* Try the following:
+  > Add 'OHOS_BASE_SDK_HOME' to the system environment path. 
+  > Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again.
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at Property.validatePath (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2109)
+    at Property.getSdkDir (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:1195)
+    at SdkLoader.getSdkInfo (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-loader.js:1:654)
+    at new ProjectTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\service\project-task-service.js:1:2057)
+    at AppPlugin.initTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:715)
+    at ProjectImpl.<anonymous> (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:2286)
+    at ProjectImpl.executeAfterBindSystemPluginsHook (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hvigor-node-impl\default-node-impl.js:1:5577)
+    at evaluateNodeVigorFile (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:9617)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-10-25T14:24:30.143] [ERROR] debug-file - BUILD FAILED in 25 ms 
+[2026-10-25T14:24:30.153] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-10-25T14:24:30.154] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-10-25T14:24:30.158] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:24:30.158] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:24:30.159] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:24:30.159] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:26:02.714] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-10-25T14:26:02.756] [DEBUG] debug-file - env: daemon=true
+[2026-10-25T14:26:02.715] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2026-10-25T14:26:03.226] [DEBUG] debug-file - session manager: set active socket. socketId=4pEvhS1UT4oZZl5xAAAR
+[2026-10-25T14:26:03.232] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:26:03.235] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-10-25T14:26:03.237] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-10-25T14:26:03.238] [DEBUG] debug-file - Since current hvigor version 6.24.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-10-25T14:26:03.239] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-10-25T14:26:03.240] [DEBUG] debug-file - hvigorfile, resolving D:\coedlabs\ToDoList\hvigorfile.ts
+[2026-10-25T14:26:03.245] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-10-25T14:26:03.245] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-10-25T14:26:03.245] [DEBUG] debug-file - Starting plugin build process
+[2026-10-25T14:26:03.245] [DEBUG] debug-file - App plugin prepare start...
+[2026-10-25T14:26:03.245] [DEBUG] debug-file - App plugin prepare end...
+[2026-10-25T14:26:03.245] [DEBUG] debug-file - App plugin creating...
+[2026-10-25T14:26:03.250] [DEBUG] debug-file - App plugin register hook start...
+[2026-10-25T14:26:03.251] [DEBUG] debug-file - App plugin register hook end...
+[2026-10-25T14:26:03.251] [DEBUG] debug-file - Plugin build process completed
+[2026-10-25T14:26:03.251] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-10-25T14:26:03.251] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-10-25T14:26:03.251] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-10-25T14:26:03.251] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-10-25T14:26:03.254] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-10-25T14:26:03.255] [ERROR] debug-file - [31m00303208 Configuration Error
+Error Message: Unable to find 'sdk.dir' in 'local.properties' or 'OHOS_BASE_SDK_HOME' in the system environment path. Check at file: D:\coedlabs\ToDoList\local.properties 
+
+* Try the following:
+  > Add 'OHOS_BASE_SDK_HOME' to the system environment path. 
+  > Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-10-25T14:26:03.255] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303208 Configuration Error
+Error Message: Unable to find 'sdk.dir' in 'local.properties' or 'OHOS_BASE_SDK_HOME' in the system environment path. Check at file: D:\coedlabs\ToDoList\local.properties 
+
+* Try the following:
+  > Add 'OHOS_BASE_SDK_HOME' to the system environment path. 
+  > Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again.
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at Property.validatePath (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2109)
+    at Property.getSdkDir (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:1195)
+    at SdkLoader.getSdkInfo (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-loader.js:1:654)
+    at new ProjectTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\service\project-task-service.js:1:2057)
+    at AppPlugin.initTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:715)
+    at ProjectImpl.<anonymous> (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:2286)
+    at ProjectImpl.executeAfterBindSystemPluginsHook (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hvigor-node-impl\default-node-impl.js:1:5577)
+    at evaluateNodeVigorFile (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:9617)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-10-25T14:26:03.255] [ERROR] debug-file - AdaptorError: [31m00303208 Configuration Error
+Error Message: Unable to find 'sdk.dir' in 'local.properties' or 'OHOS_BASE_SDK_HOME' in the system environment path. Check at file: D:\coedlabs\ToDoList\local.properties 
+
+* Try the following:
+  > Add 'OHOS_BASE_SDK_HOME' to the system environment path. 
+  > Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again.
+[39m
+    at OhosLogger.printErrorExit (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at Property.validatePath (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2109)
+    at Property.getSdkDir (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:1195)
+    at SdkLoader.getSdkInfo (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-loader.js:1:654)
+    at new ProjectTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\service\project-task-service.js:1:2057)
+    at AppPlugin.initTaskService (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\app-plugin.js:1:715)
+    at ProjectImpl.<anonymous> (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:2286)
+    at ProjectImpl.executeAfterBindSystemPluginsHook (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hvigor-node-impl\default-node-impl.js:1:5577)
+    at evaluateNodeVigorFile (D:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:9617)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-10-25T14:26:03.261] [ERROR] debug-file - BUILD FAILED in 26 ms 
+[2026-10-25T14:26:03.272] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-10-25T14:26:03.273] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-10-25T14:26:03.279] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:26:03.279] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-10-25T14:26:03.278] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-10-25T14:26:03.279] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.

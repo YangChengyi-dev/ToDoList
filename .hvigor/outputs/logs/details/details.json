@@ -1,37 +1,37 @@
 {
-  "HVIGOR_OHOS_PLUGIN": {
-    "MODULES": [],
-    "NATIVE_COMPILER": "Default"
-  },
   "HVIGOR": {
     "IS_INCREMENTAL": true,
     "IS_DAEMON": true,
     "IS_PARALLEL": true,
     "IS_HVIGORFILE_TYPE_CHECK": false,
+    "IS_EXECUTION_OHPM_BY_HVIGOR": false,
+    "BUILD_ANALYSIS_MODE": "normal",
     "TASK_TIME": {},
-    "APIS": [
-      "getHvigorConfig",
-      "getRootNodeDescriptor",
-      "getChildNode",
-      "getNodeByName",
-      "getAllNodes",
-      "getRootNode",
-      "getNodeName",
-      "getStartParams",
-      "buildFinished"
-    ],
+    "CUSTOM_TASK_TIME": {},
+    "CUSTOM_PLUGIN_TIME": {},
+    "APIS": [],
+    "CONFIG_EXPERIMENT": {
+      "ENABLE_MODULE_SKIP": false,
+      "ENABLE_CPP_FUNCTION_LEVEL_INCREMENTAL": false
+    },
     "CONFIG_PROPERTIES": {},
-    "BUILD_ID": "202607051847355520",
+    "TOTAL_TIME": 25708600,
+    "BUILD_ID": "202610251426032350",
     "ERROR_MESSAGE": [
       {
-        "CODE": "00303038",
-        "MESSAGE": "%s",
+        "CODE": "00303208",
+        "MESSAGE": "Unable to find '%s' in 'local.properties' or '%s' in the system environment path. Check at file: %s ",
         "SOLUTIONS": [
-          "Please check the following fields. \r\n {\n  instancePath: 'app',\n  keyword: 'enum',\n  params: {\n    allowedValues: [\n      'signingConfigs',\n      'products',\n      'buildModeSet',\n      'multiProjects',\n      'capabilities'\n    ]\n  },\n  message: 'must be equal to one of the allowed values',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'propertyNames',\n  params: { propertyName: 'bundleName' },\n  message: 'property name must be valid',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'enum',\n  params: {\n    allowedValues: [\n      'signingConfigs',\n      'products',\n      'buildModeSet',\n      'multiProjects',\n      'capabilities'\n    ]\n  },\n  message: 'must be equal to one of the allowed values',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'propertyNames',\n  params: { propertyName: 'vendor' },\n  message: 'property name must be valid',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'enum',\n  params: {\n    allowedValues: [\n      'signingConfigs',\n      'products',\n      'buildModeSet',\n      'multiProjects',\n      'capabilities'\n    ]\n  },\n  message: 'must be equal to one of the allowed values',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n{\n  instancePath: 'app',\n  keyword: 'propertyNames',\n  params: { propertyName: 'version' },\n  message: 'property name must be valid',\n  location: 'D:/coedlabs/ToDoList/build-profile.json5:2:9'\n} \r\n"
+          "Add 'OHOS_BASE_SDK_HOME' to the system environment path. ",
+          "Correct the value, run hvigorw --stop-daemon to stop the daemon process, and then try again."
         ],
-        "TIMESTAMP": "1783248458568"
+        "TIMESTAMP": "1792909563252"
+      },
+      {
+        "CODE": "00303208",
+        "STACK": "00303208 Configuration Error\n...\n    at OhosLogger.printErrorExit (***\\tools\\hvigor\\hvigor\\src\\base\\log\\hv***g.js:1:5087)\n    at Property.validatePath (***\\tools\\hvigor\\hvigor-ohos-plugin\\src\\sdk\\lib\\pr***t.js:1:2109)\n    at Property.getSdkDir (***\\tools\\hvigor\\hvigor-ohos-plugin\\src\\sdk\\lib\\pr***t.js:1:1195)\n    at SdkLoader.getSdkInfo (***\\tools\\hvigor\\hvigor-ohos-plugin\\src\\sdk\\sd***r.js:1:654)\n    at new ProjectTaskService (***\\tools\\hvigor\\hvigor-ohos-plugin\\src\\tasks\\service\\pr***e.js:1:2057)\n    at AppPlugin.initTaskService (***\\tools\\hvigor\\hvigor-ohos-plugin\\src\\plugin\\ap***n.js:1:715)\n    at ProjectImpl.<anonymous> (***\\tools\\hvigor\\hvigor-ohos-plugin\\src\\plugin\\builder\\ap***r.js:1:2286)\n    at ProjectImpl.executeAfterBindSystemPluginsHook (***\\tools\\hvigor\\hvigor\\src\\base\\internal\\lifecycle\\hvigor-node-impl\\de***l.js:1:5577)\n    at evaluateNodeVigorFile (***\\tools\\hvigor\\hvigor\\src\\base\\internal\\lifecycle\\co***n.js:1:9617)\n...",
+        "PROJECT_CONFIG": {}
       }
-    ],
-    "TOTAL_TIME": 3026662600
+    ]
   }
 }

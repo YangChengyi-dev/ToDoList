@@ -7,6 +7,6 @@
   main: '',
   version: '1.0.0',
   dependencies: {},
-  modelVersion: '5.0.4'
+  modelVersion: '5.0.0'
   // 添加此行
 }

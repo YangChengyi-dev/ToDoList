@@ -1,11 +1,15 @@
 {
   app: {
-    bundleName: 'com.example.todolist',
-    vendor: 'example',
-    version: {
-      code: 1,
-      name: '1.0.0'
-    }
+    products: [
+      {
+        name: 'default',
+        bundleName: 'com.example.todolist',
+        vendor: 'example',
+        versionCode: 1,
+        versionName: '1.0.0',
+        compatibleSdkVersion: '9',
+      }
+    ]
   },
   modules: [
     {

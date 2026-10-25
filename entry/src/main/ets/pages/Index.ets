@@ -18,6 +18,26 @@ struct Index {
     new TodoItem('练习声明式UI布局')
   ];
 
+  @State inputValue: string = '';
+
+  addTodo() {
+    const trimmed = this.inputValue.trim();
+    if (trimmed.length > 0) {
+      this.todoList = [...this.todoList, new TodoItem(trimmed)];
+      this.inputValue = '';
+    }
+  }
+
+  toggleTodo(index: number) {
+    const item = this.todoList[index];
+    this.todoList[index] = {
+      text: item.text,
+      isCompleted: !item.isCompleted
+    };
+    // 触发数组更新
+    this.todoList = [...this.todoList];
+  }
+
   build() {
     Column() {
       // 标题栏
@@ -28,6 +48,25 @@ struct Index {
         .padding({ top: 20, bottom: 10 })
         .textAlign(TextAlign.Center)
 
+      // 输入区域
+      Row() {
+        TextField({
+          placeholder: '请输入待办事项',
+          text: this.inputValue
+        })
+          .layoutWeight(1)
+          .onChange((value: string) => {
+            this.inputValue = value;
+          })
+
+        Button('添加')
+          .onClick(() => {
+            this.addTodo();
+          })
+      }
+        .width('100%')
+        .padding({ left: 16, right: 16, bottom: 16 })
+
       // 列表区域
       List() {
         ForEach(this.todoList, (item: TodoItem, index: number) => {
@@ -35,7 +74,6 @@ struct Index {
             Row() {
               // 完成状态图标
               Text(item.isCompleted ? '✓' : '○')
-                .fontSize(24)
                 .fontColor(item.isCompleted ? '#4CAF50' : '#999')
                 .margin({ right: 12 })
 
@@ -54,11 +92,10 @@ struct Index {
             .backgroundColor('#F5F5F5')
             .margin({ bottom: 8 })
             .onClick(() => {
-              // 切换完成状态
-              this.todoList[index].isCompleted = !this.todoList[index].isCompleted;
+              this.toggleTodo(index);
             })
           }
-        }, (item: TodoItem) => item.text) // 使用text作为唯一key
+        }, (item: TodoItem) => item.text)
       }
       .width('100%')
       .layoutWeight(1)
