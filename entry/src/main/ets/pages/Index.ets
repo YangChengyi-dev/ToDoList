@@ -30,10 +30,9 @@ struct Index {
 
   toggleTodo(index: number) {
     const item = this.todoList[index];
-    this.todoList[index] = {
-      text: item.text,
-      isCompleted: !item.isCompleted
-    };
+    const updated = new TodoItem(item.text);
+    updated.isCompleted = !item.isCompleted;
+    this.todoList[index] = updated;
     // 触发数组更新
     this.todoList = [...this.todoList];
   }
@@ -50,7 +49,7 @@ struct Index {
 
       // 输入区域
       Row() {
-        TextField({
+        TextInput({
           placeholder: '请输入待办事项',
           text: this.inputValue
         })

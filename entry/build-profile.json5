@@ -5,7 +5,7 @@
       // 可在此添加ArkTS编译器选项
     }
   },
-  target: [
+  targets: [
     {
       name: 'default',
       runtimeOS: 'HarmonyOS',

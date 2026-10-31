@@ -1,32 +1,92 @@
 {
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [
+      {
+        "MODULE_NAME": "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf",
+        "API_TYPE": "stageMode",
+        "INCLUDE_IN_BUILD": true,
+        "IS_COMMAND_LINE_ENTRY_MODULE": false,
+        "BUILD_OPTION": [
+          {
+            "path": "debuggable",
+            "traceValue": true,
+            "value": true
+          },
+          {
+            "path": "copyFrom",
+            "traceValue": false,
+            "value": ""
+          },
+          {
+            "path": "arkOptions",
+            "traceValue": false,
+            "value": ""
+          }
+        ],
+        "PACKAGE_JSON": [],
+        "MODULE_TYPE": "entry",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": true
+        },
+        "IS_INCREMENTAL_MODULE": true
+      }
+    ],
+    "NATIVE_COMPILER": "Default",
+    "IS_FULL_BUILD": false,
+    "PACKAGE_JSON": [],
+    "BUILD_MODE": "debug"
+  },
   "HVIGOR": {
     "IS_INCREMENTAL": true,
-    "IS_DAEMON": true,
+    "IS_DAEMON": false,
     "IS_PARALLEL": true,
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "IS_EXECUTION_OHPM_BY_HVIGOR": false,
+    "IS_SYNCNATIVE_COMPILATION": false,
     "BUILD_ANALYSIS_MODE": "normal",
-    "TASK_TIME": {},
+    "OPTIMIZATION_STRATEGY": "memory",
+    "TASK_TIME": {
+      "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf": {
+        "PreBuild": 243773000,
+        "CreateModuleInfo": 2657000,
+        "ConfigureCmake": 390100,
+        "MergeProfile": 15968100,
+        "CreateBuildProfile": 5586300,
+        "PreCheckSyscap": 1017900,
+        "GeneratePkgContextInfo": 14496800,
+        "ProcessIntegratedHsp": 1411300,
+        "BuildNativeWithCmake": 1304500,
+        "SyscapTransform": 26927600,
+        "ProcessProfile": 281583700,
+        "ProcessRouterMap": 6149400,
+        "ProcessShareConfig": 5603800,
+        "ProcessStartupConfig": 2882800,
+        "BuildNativeWithNinja": 860000,
+        "GenerateLoaderJson": 19576000,
+        "CompileResource": 386091100,
+        "BuildJS": 7274300,
+        "CompileArkTS": 8924487300,
+        "GeneratePkgModuleJson": 5661900,
+        "ProcessCompiledResources": 1651000,
+        "PackageHap": 1088632900,
+        "PackingCheck": 9210400,
+        "SignHap": 5747700,
+        "CollectDebugSymbol": 1892600,
+        "assembleHap": 422300
+      }
+    },
     "CUSTOM_TASK_TIME": {},
     "CUSTOM_PLUGIN_TIME": {},
-    "APIS": [],
+    "APIS": [
+      "getProperty"
+    ],
     "CONFIG_EXPERIMENT": {
       "ENABLE_MODULE_SKIP": false,
       "ENABLE_CPP_FUNCTION_LEVEL_INCREMENTAL": false
     },
     "CONFIG_PROPERTIES": {},
-    "TOTAL_TIME": 236956500,
-    "BUILD_ID": "202610251447520120",
-    "ERROR_MESSAGE": [
-      {
-        "CODE": "00308018",
-        "STACK": "00308018 Unknown Error\n...\n    at OhSdkInfoHandler._throwNotFoundException (***\\tools\\hvigor\\hvigor-ohos-plugin\\node_modules\\@ohos\\sdkmanager-common\\build\\src\\core\\api\\co***r.js:142:30)\n    at OhSdkInfoHandler.<anonymous> (***\\tools\\hvigor\\hvigor-ohos-plugin\\node_modules\\@ohos\\sdkmanager-common\\build\\src\\core\\api\\co***r.js:88:29)\n...\n    at fulfilled (***\\tools\\hvigor\\hvigor-ohos-plugin\\node_modules\\@ohos\\sdkmanager-common\\build\\src\\core\\api\\co***r.js:5:58)\n...",
-        "PROJECT_CONFIG": {}
-      },
-      {
-        "CODE": "00308018",
-        "TIMESTAMP": "1792910872243"
-      }
-    ]
+    "BUILD_ID": "202610311553498140",
+    "PID": 13592,
+    "TOTAL_TIME": 15340150400
   }
 }

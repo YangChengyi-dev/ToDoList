@@ -1,0 +1,25 @@
+{
+  "modulePathMap": {
+    "entry": "D:\\coedlabs\\ToDoList\\entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "D:\\coedlabs\\ToDoList",
+  "nodeModulesPath": "D:\\coedlabs\\ToDoList\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "entry",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [
+    "D:\\coedlabs\\ToDoList\\entry\\build\\default\\generated\\r\\default\\ResourceTable.ts"
+  ],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "updateVersionInfo": {},
+  "customizedHar": false,
+  "anBuildOutPut": "D:\\coedlabs\\ToDoList\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type"
+}

@@ -7,7 +7,9 @@
         vendor: 'example',
         versionCode: 1,
         versionName: '1.0.0',
-        compatibleSdkVersion: '9',
+        compatibleSdkVersion: '26.0.0',
+        runtimeOS: 'HarmonyOS',
+        "targetSdkVersion": "26.0.0"
       }
     ]
   },
